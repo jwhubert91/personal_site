@@ -36,3 +36,14 @@ img.prof-pic {
 	margin: 5px 0px;
 }
 
+.cv-link {
+	color: red;
+	border-bottom: 1px dotted red;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.cv-link:visited {
+	color: red;
+}
+
