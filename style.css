@@ -1,12 +1,28 @@
+:root {
+	--grapevine-purple: #9A1472;
+}
+
 html,body {
 	margin: 0;
 	padding: 0;
-}
-
-body {
 	font-family: 'Source Sans Pro',Helvetica,sans-serif;
 }
 
-h1 {
-	color: purple;
+.bio-section {
+	margin: 0;
+	padding: 40px 20px;
+	background-color: var(--grapevine-purple);
+	height: 600px;
+	text-align: center;
 }
+
+img.prof-pic {
+	border-radius: 50%;
+	height: 110px;
+	margin: 0 auto;
+}
+
+.bio-section h1 {
+	font-size: 22px;
+}
+
