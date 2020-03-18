@@ -26,3 +26,13 @@ img.prof-pic {
 	font-size: 22px;
 }
 
+.white-text {
+	color: white;
+}
+
+.bio-subheader {
+	font-size: 16px;
+	letter-spacing: 0.05px;
+	margin: 5px 0px;
+}
+
