@@ -22,7 +22,7 @@ img.prof-pic {
 	margin: 0 auto;
 }
 
-.bio-name-header {
+.section-header {
 	font-size: 22px;
 	margin: 25px 0 10px 0;
 }
@@ -58,8 +58,38 @@ img.prof-pic {
 .bio-in-touch {
 	font-size: 19px;
 	margin: 62px 0 10px 0;
+	color: white;
 }
 
-.bio-in-touch-icons {
-	font-size: 40px;
+.bio-divider {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.white-link {
+	color: white;
+	text-decoration: none;
+}
+
+.white-link:hover {
+	text-decoration: underline;
+	font-size: 18px;
+	transition: 500ms;
+}
+
+.personal-summary-section {
+	margin: 50px 25px;
+}
+
+.personal-summary-text {
+	color: gray;
+	margin: 30px 0;
+	letter-spacing: .3px;
+	line-height: 25px;
+}
+
+.personal-summary-text-link {
+	color: black;
+	text-decoration: none;
+	border-bottom: 1px dotted black;
 }
