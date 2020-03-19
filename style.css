@@ -18,12 +18,13 @@ html,body {
 
 img.prof-pic {
 	border-radius: 50%;
-	height: 110px;
+	height: 100px;
 	margin: 0 auto;
 }
 
-.bio-section h1 {
+.bio-name-header {
 	font-size: 22px;
+	margin: 25px 0 10px 0;
 }
 
 .white-text {
@@ -47,3 +48,18 @@ img.prof-pic {
 	color: red;
 }
 
+.bio-stack-pelement {
+	margin: 20px;
+	font-size: 38px;
+	line-height: 60px;
+	letter-spacing: 1px;
+}
+
+.bio-in-touch {
+	font-size: 19px;
+	margin: 62px 0 10px 0;
+}
+
+.bio-in-touch-icons {
+	font-size: 20px;
+}
