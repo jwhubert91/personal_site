@@ -78,7 +78,7 @@ img.prof-pic {
 }
 
 .personal-summary-section {
-	margin: 50px 25px;
+	margin: 50px 25px 20px 25px;
 }
 
 .personal-summary-text {
@@ -92,4 +92,17 @@ img.prof-pic {
 	color: black;
 	text-decoration: none;
 	border-bottom: 1px dotted black;
+}
+
+hr#section-divider-1 {
+	background-color: gainsboro;
+	margin: 0 25px;
+}
+
+.portfolio-section {
+	margin: 25px;
+}
+
+.portfolio-section-header {
+	font-size: 19px;
 }
