@@ -72,7 +72,6 @@ img.prof-pic {
 }
 
 .white-link:hover {
-	text-decoration: underline;
 	font-size: 18px;
 	transition: 500ms;
 }
