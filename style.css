@@ -82,7 +82,7 @@ img.prof-pic {
 }
 
 .personal-summary-section {
-	margin: 50px 25px 20px 25px;
+	margin: 50px 25px 50px 25px;
 }
 
 .personal-summary-text {
@@ -112,6 +112,7 @@ hr#section-divider-1 {
 .portfolio-section {
 	margin: 25px;
 	border-top: 1px gainsboro solid;
+	padding-top: 30px;
 }
 
 .portfolio-section-header {
