@@ -117,6 +117,8 @@ hr#section-divider-1 {
 
 .portfolio-section-header {
 	font-size: 19px;
+	padding: 0;
+	margin: 0;
 }
 
 .portfolio-items-container {
@@ -147,4 +149,16 @@ hr#section-divider-1 {
 
 .project-light-text {
 	color: gray;
+}
+
+.project-header-text {
+	margin: 10px 0;
+}
+
+.project-description {
+	padding-top: 12px;
+}
+
+.portfolio-item {
+	padding-top: 30px;
 }
