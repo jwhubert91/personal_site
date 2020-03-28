@@ -11,7 +11,21 @@ html,body {
 /* desktop and larger */
 body {
 	display: grid;
-	grid-template-columns: 30% 70%;
+	grid-template-columns: 3fr 7fr;
+}
+
+.bio-section {
+	margin: 0;
+	background-color: var(--grapevine-purple);
+	text-align: center;
+}
+
+.bio-container {
+	width: 28vw;
+	position: fixed;
+	margin-top: 25px;
+	margin-left: 1vw;
+	padding: 0;
 }
 
 /* ipad and smaller */
@@ -21,15 +35,12 @@ body {
 		grid-template-rows: auto auto;
 	}
 	.bio-section {
-		height: 100vh;
+		padding: 95px 60px 170px 60px;
 	}
-}
-
-.bio-section {
-	margin: 0;
-	padding: 95px 60px 170px 60px;
-	background-color: var(--grapevine-purple);
-	text-align: center;
+	.bio-container {
+		position: static;
+		width: auto;
+	}
 }
 
 .bio-section-header {
@@ -69,6 +80,7 @@ img.prof-pic {
 }
 
 .mystack-subheader {
+	display: block;
 	margin-top: 27px;
 	font-size: 20px;
 }
@@ -101,7 +113,7 @@ img.prof-pic {
 	transition: 500ms;
 }
 
-/* large mobile - bio section styles */
+/* mobile - bio section styles */
 @media only screen and (max-width: 735px) {
 	.bio-section {
 		padding: 40px 30px 100px 30px;
@@ -111,7 +123,6 @@ img.prof-pic {
 	}
 	.title-subheader {
 		font-size: 16px;
-		margin: 5px 0px;
 	}
 	.mystack-subheader {
 		margin-top: 22px;
@@ -119,6 +130,30 @@ img.prof-pic {
 	.bio-in-touch {
 		font-size: 19px;
 		margin: 82px 0 25px 0;
+	}
+}
+@media only screen and (min-width: 980px) {
+	.bio-container {
+		text-align: right;
+	}
+	.bio-section-header {
+		font-size: 22px;
+	}
+	.mystack-subheader {
+		display: none;
+	}
+	h1.bio-in-touch {
+		font-size: 17px;
+		margin: 42px 0 25px 0;
+	}
+	.bio-stack-pelement {
+		margin: 15px auto 0px auto;
+		font-size: 30px;
+		line-height: 48px;
+		letter-spacing: .8px;
+	}
+	p.bio-in-touch-links {
+		font-size: 15px;
 	}
 }
 
